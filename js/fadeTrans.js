@@ -1,0 +1,2 @@
+$('#info').fadeToggle()
+$('#info').fadeToggle()

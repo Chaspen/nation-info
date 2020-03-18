@@ -1,0 +1,49 @@
+#map {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+
+}
+
+#visual {
+    position: relative;
+    z-index: 2;
+}
+
+#important {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top:0;
+    z-index: 9;
+        
+}
+
+#list {
+    overflow: auto;
+    width: 200px;
+    height: 140px;
+    padding-top: auto;
+    padding-bottom: auto;
+    right: 0;
+    background: white;
+}
+
+#langBasic {
+   padding-left: 50px;
+}
+
+#info {
+    margin-top: 210px;
+    width: 400px;
+    align-content: right;
+    font-size: 30px;
+    
+}
+

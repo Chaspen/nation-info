@@ -1,0 +1,234 @@
+<!--DOCTYPE html-->
+<head>
+    <!--LEAFLET-->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/map.css" />
+    <script src="lib/leaflet.js"></script>
+    <script src="lib/jquery-3.4.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <script src="js/expiremental/SpeechRecognition.js"></script>
+    <!--OTHER SHIT-->
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="visual">
+            <div id="map"></div>
+            <script src="js/mapInit.js"></script>
+            <script src="js/nationPan.js"></script>
+            <script src="js/debug.js"></script>
+            <script src="js/infoAction.js"></script>
+        </div>
+        <div id="important">
+            <div id="list">
+                <div id="li" onclick="afghanistan();">Afghanistan</div>
+                <div id="li" onclick="albania();">Albania</div>
+                <div id="li" onclick="algeria();">Algeria</div>
+                <div id="li" onclick="andorra();">Andorra</div>
+                <div id="li" onclick="angola();">Angola</div>
+                <div id="li" onclick="antigua();">Antigua</div>
+                <div id="li" onclick="argentina();">Argentina</div>
+                <div id="li" onclick="armenia();">Armenia</div>
+                <div id="li" onclick="australia();">Australia</div>
+                <div id="li" onclick="austria();">Austria</div>
+                <div id="li" onclick="azerbaijan();">Azerbaijan</div>
+                <div id="li" onclick="bahamas();">Bahamas</div>
+                <div id="li" onclick="bahrain();">Bahrain</div>
+                <div id="li" onclick="bangladesh();">Bangladesh</div>
+                <div id="li" onclick="barbados();">Barbados</div>
+                <div id="li" onclick="belarus();">Belarus</div>
+                <div id="li" onclick="belgium();">Belgium</div>
+                <div id="li" onclick="belize();">Belize</div>
+                <div id="li" onclick="benin();">Benin</div>
+                <div id="li" onclick="bhutan();">Bhutan</div>
+                <div id="li" onclick="bolivia();">Bolivia</div>
+                <div id="li" onclick="bosnia();">Bosnia</div>
+                <div id="li" onclick="botswana();">Botswana</div>
+                <div id="li" onclick="brazil();">Brazil</div>
+                <div id="li" onclick="brunei();">Brunei</div>
+                <div id="li" onclick="bulgaria();">Bulgaria</div>
+                <div id="li" onclick="burkinafaso();">Burkina Faso</div>
+                <div id="li" onclick="burundi();">Burundi</div>
+                <div id="li" onclick="cotedivoire();">Côte d'Ivoire</div>
+                <div id="li" onclick="caboverde();">Cabo Verde</div>
+                <div id="li" onclick="cambodia();">Cambodia</div>
+                <div id="li" onclick="cameroon();">Cameroon</div>
+                <div id="li" onclick="canada();">Canada</div>
+                <div id="li" onclick="car();">Central African Republic</div>
+                <div id="li" onclick="chad();">Chad</div>
+                <div id="li" onclick="chile();">Chile</div>
+                <div id="li" onclick="china();">China</div>
+                <div id="li" onclick="colombia();">Colombia</div>
+                <div id="li" onclick="comoros();">Comoros</div>
+                <div id="li" onclick="congo();">Congo</div>
+                <div id="li" onclick="costarica();">Costa Rica</div>
+                <div id="li" onclick="croatia();">Croatia</div>
+                <div id="li" onclick="cuba();">Cuba</div>
+                <div id="li" onclick="cyprus();">Cyprus</div>
+                <div id="li" onclick="czech();">Czech Republic</div>
+                <div id="li" onclick="republiccongo();">Democratic Republic of the Congo</div>
+                <div id="li" onclick="denmark();">Denmark</div>
+                <div id="li" onclick="djibouti();">Djibouti</div>
+                <div id="li" onclick="dominica();">Dominica</div>
+                <div id="li" onclick="dominicanrepublic();">Dominican Republic</div>
+                <div id="li" onclick="ecuador();">Ecuador</div>
+                <div id="li" onclick="egypt();">Egypt</div>
+                <div id="li" onclick="elsalvador();">El Salvador</div>
+                <div id="li" onclick="equatorialguinea();">Equatorial Guinea</div>
+                <div id="li" onclick="eritrea();">Eritrea</div>
+                <div id="li" onclick="estonia();">Estonia</div>
+                <div id="li" onclick="eswatini();">Eswatini(Swaziland)</div>
+                <div id="li" onclick="ethiopia();">Ethiopia</div>
+                <div id="li" onclick="faroeislands();">Faroe Islands</div>
+                <div id="li" onclick="fiji();">Fiji</div>
+                <div id="li" onclick="finland();">Finland</div>
+                <div id="li" onclick="france();">France</div>
+                <div id="li" onclick="gabon();">Gabon</div>
+                <div id="li" onclick="gambia();">Gambia</div>
+                <div id="li" onclick="georgia();">Georgia</div>
+                <div id="li" onclick="germany();">Germany</div>
+                <div id="li" onclick="ghana();">Ghana</div>
+                <div id="li" onclick="greece();">Greece</div>
+                <div id="li" onclick="greenland();">Greenland</div>
+                <div id="li" onclick="grenada();">Grenada</div>
+                <div id="li" onclick="guatemala();">Guatemala</div>
+                <div id="li" onclick="guinea();">Guinea</div>
+                <div id="li" onclick="guineabissau();">Guinea-Bissau</div>
+                <div id="li" onclick="guyana();">Guyana</div>
+                <div id="li" onclick="haiti();">Haiti</div>
+                <div id="li" onclick="vatican();">Holy See/Vatican City</div>
+                <div id="li" onclick="honduras();">Honduras</div>
+                <div id="li" onclick="hungary();">Hungary</div>
+                <div id="li" onclick="iceland();">Iceland</div>
+                <div id="li" onclick="india();">India</div>
+                <div id="li" onclick="indonesia();">Indonesia</div>
+                <div id="li" onclick="iran();">Iran</div>
+                <div id="li" onclick="iraq();">Iraq</div>
+                <div id="li" onclick="ireland();">Ireland</div>
+                <div id="li" onclick="israel();">Israel</div>
+                <div id="li" onclick="italy();">Italy</div>
+                <div id="li" onclick="jamaica();">Jamaica</div>
+                <div id="li" onclick="japan();">Japan</div>
+                <div id="li" onclick="jordan();">Jordan</div>
+                <div id="li" onclick="kazakhstan();">Kazakhstan</div>
+                <div id="li" onclick="kenya();">Kenya</div>
+                <div id="li" onclick="kiribati();">Kiribati</div>
+                <div id="li" onclick="kuwait();">Kuwait</div>
+                <div id="li" onclick="kyrgyzstan();">Kyrgyzstan</div>
+                <div id="li" onclick="laos();">Laos</div>
+                <div id="li" onclick="latvia();">Latvia</div>
+                <div id="li" onclick="lebanon();">Lebanon</div>
+                <div id="li" onclick="lesotho();">Lesotho</div>
+                <div id="li" onclick="liberia();">Liberia</div>
+                <div id="li" onclick="libya();">Libya</div>
+                <div id="li" onclick="liechtenstein();">Liechtenstein</div>
+                <div id="li" onclick="lithuania();">Lithuania</div>
+                <div id="li" onclick="luxembourg();">Luxembourg</div>
+                <div id="li" onclick="madagascar();">Madagascar</div>
+                <div id="li" onclick="malawi();">Malawi</div>
+                <div id="li" onclick="malaysia();">Malaysia</div>
+                <div id="li" onclick="maldives();">Maldives</div>
+                <div id="li" onclick="mali();">Mali</div>
+                <div id="li" onclick="malta();">Malta</div>
+                <div id="li" onclick="marshall();">Marshall Islands</div>
+                <div id="li" onclick="mauritania();">Mauritania</div>
+                <div id="li" onclick="mauritius();">Mauritius</div>
+                <div id="li" onclick="mexico();">Mexico</div>
+                <div id="li" onclick="micronesia();">Micronesia</div>
+                <div id="li" onclick="moldova();">Moldova</div>
+                <div id="li" onclick="monaco();">Monaco</div>
+                <div id="li" onclick="mongolia();">Mongolia</div>
+                <div id="li" onclick="montenegro();">Montenegro</div>
+                <div id="li" onclick="morroco();">Morocco</div>
+                <div id="li" onclick="mozambique();">Mozambique</div>
+                <div id="li" onclick="myanmar();">Myanmar(Burma)</div>
+                <div id="li" onclick="namibia();">Namibia</div>
+                <div id="li" onclick="nauru();">Nauru</div>
+                <div id="li" onclick="nepal();">Nepal</div>
+                <div id="li" onclick="netherland();">Netherlands</div>
+                <div id="li" onclick="newzealand();">New Zealand</div>
+                <div id="li" onclick="nicaragua();">Nicaragua</div>
+                <div id="li" onclick="niger();">Niger</div>
+                <div id="li" onclick="nigeria();">Nigeria</div>
+                <div id="li" onclick="northkorea();">North Korea</div>
+                <div id="li" onclick="macedonia();">North Macedonia</div>
+                <div id="li" onclick="norway();">Norway</div>
+                <div id="li" onclick="oman();">Oman</div>
+                <div id="li" onclick="pakistan();">Pakistan</div>
+                <div id="li" onclick="palau();">Palau</div>
+                <div id="li" onclick="palestine();">Palestine</div>
+                <div id="li" onclick="panama();">Panama</div>
+                <div id="li" onclick="papuanewguinea();">Papua New Guinea</div>
+                <div id="li" onclick="paraguay();">Paraguay</div>
+                <div id="li" onclick="peru();">Peru</div>
+                <div id="li" onclick="phillipines();">Phillipines</div>
+                <div id="li" onclick="poland();">Poland</div>
+                <div id="li" onclick="portugal();">Portugal</div>
+                <div id="li" onclick="qatar();">Qatar</div>
+                <div id="li" onclick="romania();">Romania</div>
+                <div id="li" onclick="russia();">Russia</div>
+                <div id="li" onclick="rwanda();">Rwanda</div>
+                <div id="li" onclick="saintkitts();">Saint Kitts and Nevis</div>      
+                <div id="li" onclick="saintlucia();">Saint Lucia</div>
+                <div id="li" onclick="saintvincent();">Saint Vincent and the Grenadines</div>
+                <div id="li" onclick="samoa();">Samoa</div>
+                <div id="li" onclick="sanmarino();">San Marino</div>
+                <div id="li" onclick="saotome();">Sao Tome and Principe</div>
+                <div id="li" onclick="saudiarabia();">Saudi Arabia</div>
+                <div id="li" onclick="senegal();">Senegal</div>
+                <div id="li" onclick="serbia();">Serbia</div>
+                <div id="li" onclick="seychelles();">Seychelles</div>
+                <div id="li" onclick="sierraleone();">Sierra Leone</div>
+                <div id="li" onclick="singapore();">Singapore</div>
+                <div id="li" onclick="slovakia();">Slovakia</div>
+                <div id="li" onclick="slovenia();">Slovenia</div>
+                <div id="li" onclick="solomonislands();">Solomon Islands</div>
+                <div id="li" onclick="somalia();">Somalia</div>
+                <div id="li" onclick="southafrica();">South Africa</div>
+                <div id="li" onclick="southkorea();">South Korea</div>
+                <div id="li" onclick="southsudan();">South Sudan</div>
+                <div id="li" onclick="spain();">Spain</div>
+                <div id="li" onclick="srilanka();">Sri Lanka</div>
+                <div id="li" onclick="sudan();">Sudan</div>
+                <div id="li" onclick="suriname();">Suriname</div>
+                <div id="li" onclick="sweden();">Sweden</div>
+                <div id="li" onclick="switzerland();">Switzerland</div>
+                <div id="li" onclick="syria();">Syria</div>
+                <div id="li" onclick="tajiktan();">Tajikstan</div>
+                <div id="li" onclick="tanzania();">Tanzania</div>
+                <div id="li" onclick="thailand();">Thailand</div>
+                <div id="li" onclick="timorleste();">Timor-Leste</div>
+                <div id="li" onclick="togo();">Togo</div>
+                <div id="li" onclick="tonga();">Tonga</div>
+                <div id="li" onclick="trinidad();">Trinidad and Tobago</div>
+                <div id="li" onclick="tunisia();">Tunisia</div>
+                <div id="li" onclick="turkey();">Turkey</div>
+                <div id="li" onclick="turkmenistan();">Turkmenistan</div>
+                <div id="li" onclick="tuvalu();">Tuvalu</div>
+                <div id="li" onclick="uganda();">Uganda</div>
+                <div id="li" onclick="ukraine();">Ukraine</div>
+                <div id="li" onclick="uae();">United Arab Emirates</div>
+                <div id="li" onclick="uk();">United Kingdom</div>
+                <div id="li" onclick="usa();">United States</div>
+                <div id="li" onclick="uraguay();">Uruguay</div>
+                <div id="li" onclick="uzbekistan();">Uzbekistan</div>
+                <div id="li" onclick="vanuatu();">Vanuatu</div>
+                <div id="li" onclick="venezuela();">Venezuela</div>
+                <div id="li" onclick="vietnam();">Vietnam</div>
+                <div id="li" onclick="yemen();">Yemen</div>
+                <div id="li" onclick="zambia();">Zambia</div>
+                <div id="li" onclick="zimbabwe();">Zimbabwe</div>
+            </div>
+            <div id="info-wrapper">
+                <div id="info">
+                    <div id="name"></div>
+                    <div id="lang"></div>
+                    <div id="langBasic"></div>
+                    <div id="currency"></div>
+                    <div id="continent"></div>
+                    <div id="moreinfo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
