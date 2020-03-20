@@ -6,7 +6,9 @@
     <script src="lib/leaflet.js"></script>
     <script src="lib/jquery-3.4.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
-    <script src="js/expiremental/SpeechRecognition.js"></script>
+    <script src="js/voicectrl/SpeechRecognition.js"></script>
+    <script src="js/rest.js"></script>
+    
     <!--OTHER SHIT-->
 
 </head>
@@ -17,7 +19,6 @@
             <script src="js/mapInit.js"></script>
             <script src="js/nationPan.js"></script>
             <script src="js/debug.js"></script>
-            <script src="js/infoAction.js"></script>
         </div>
         <div id="important">
             <div id="list">
@@ -139,13 +140,13 @@
                 <div id="li" onclick="monaco();">Monaco</div>
                 <div id="li" onclick="mongolia();">Mongolia</div>
                 <div id="li" onclick="montenegro();">Montenegro</div>
-                <div id="li" onclick="morroco();">Morocco</div>
+                <div id="li" onclick="morocco();">Morocco</div>
                 <div id="li" onclick="mozambique();">Mozambique</div>
                 <div id="li" onclick="myanmar();">Myanmar(Burma)</div>
                 <div id="li" onclick="namibia();">Namibia</div>
                 <div id="li" onclick="nauru();">Nauru</div>
                 <div id="li" onclick="nepal();">Nepal</div>
-                <div id="li" onclick="netherland();">Netherlands</div>
+                <div id="li" onclick="netherlands();">Netherlands</div>
                 <div id="li" onclick="newzealand();">New Zealand</div>
                 <div id="li" onclick="nicaragua();">Nicaragua</div>
                 <div id="li" onclick="niger();">Niger</div>
@@ -221,12 +222,24 @@
             </div>
             <div id="info-wrapper">
                 <div id="info">
+                    <div id="head">Name</div>
                     <div id="name"></div>
+                    <div id="head">Capital</div>
+                    <div id="capital"></div>
+                    <div id="head">Population</div>
+                    <div id="population"></div>
+                    <div id="head">Area</div>
+                    <div id="area"></div>
+                    <div id="head">Timezone</div>
+                    <div id="timezone"></div>
+                    <div id="head">Language</div>
                     <div id="lang"></div>
-                    <div id="langBasic"></div>
+                    <div id="head">Borders</div>
+                    <div id="borders"></div>
+                    <div id="head">Currency</div>
                     <div id="currency"></div>
-                    <div id="continent"></div>
-                    <div id="moreinfo"></div>
+                    <div id="head">Region</div>
+                    <div id="region"></div>
                 </div>
             </div>
         </div>
