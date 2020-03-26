@@ -8,7 +8,7 @@ var commands = {
     'norwegia': function() { norway(); },
     'finlandia': function() { finland(); },
     'estonia': function() { estonia(); },
-    'Wielka Brytania  ': function() { uk(); },
+    'Wielka Brytania': function() { uk(); },
     'ireland': function() { ireland(); },
     'france': function() { france(); },
     '(the) netherlands': function() { netherlands(); },

@@ -46,7 +46,7 @@ body {
     width: 400px;
     align-content: right;
     font-size: 20px;
-    
+
 }
 
 #timezone {
@@ -58,3 +58,17 @@ body {
     background-color: aqua
 }
 
+
+#alert {
+  position: absolute;
+  padding-bottom: 20px;
+  background-color: aqua;
+  margin-bottom: 20px;
+  font-size: 20px;
+  white-space: nowrap;
+  width: 100px;
+  height: 10px;
+  z-index: 10;
+  right: 0;
+  bottom:0;
+}

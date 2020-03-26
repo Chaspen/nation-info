@@ -1,0 +1,12 @@
+{
+    "intro": "Vinsamlegast virkjaðu hljóðnemann þinn",
+    "name": "Nafn",
+    "capital": "Höfuðborg",
+    "population": "Mannfjöldi",
+    "area": "Svæði",
+    "timezone": "Tímabelti",
+    "language": "Tungumál",
+    "borders": "Landamæri",
+    "currency": "Gjaldmiðill",
+    "region": "Svæði í Evrópu"
+}

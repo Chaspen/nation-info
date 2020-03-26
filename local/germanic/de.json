@@ -1,0 +1,12 @@
+{
+    "intro": "Bitte aktivieren Sie Ihr Mikrofon.",
+    "name": "Name",
+    "capital": "Hauptstadt",
+    "population": "Population",
+    "area": "Bereich",
+    "timezone": "Zeitzone",
+    "language": "Sprache",
+    "borders": "Grenzen",
+    "currency": "Währung",
+    "region": "Region"
+}

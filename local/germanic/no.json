@@ -1,0 +1,12 @@
+{
+    "intro": "Aktiver mikrofonen din.",
+    "name": "Navn",
+    "capital": "Hovedstad",
+    "population": "Befolkning",
+    "area": "Area",
+    "timezone": "Tidssone",
+    "language": "Språk",
+    "borders": "Grenser",
+    "currency": "Valuta",
+    "region": "Region"
+}

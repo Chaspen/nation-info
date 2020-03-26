@@ -1,0 +1,12 @@
+{
+    "intro": "Schakel uw microfoon in.",
+    "name": "Naam",
+    "capital": "Hoofdstad",
+    "population": "Bevolking",
+    "area": "Oppervlakte",
+    "timezone": "Tijdzone",
+    "language": "Taal",
+    "borders": "Grenzen",
+    "currency": "Valuta",
+    "region": "Regio"
+}

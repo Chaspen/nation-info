@@ -1,0 +1,12 @@
+{
+    "intro": "Zapněte prosím mikrofon.",
+    "name": "Název",
+    "capital": "Hlavní město",
+    "population": "Populace",
+    "area": "Plocha ",
+    "timezone": "Časové pásmo",
+    "language": "Jazyk",
+    "borders": "Hranice",
+    "currency": "Měna",
+    "region": "Oblast"
+}

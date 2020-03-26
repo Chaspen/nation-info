@@ -2,7 +2,7 @@ if (annyang) {
     console.log("instance of Web Speech API has been found")
     annyang.setLanguage('en-US')
     annyang.debug(false);
-    
+
   var commands = {
       'sweden': function() { sweden(); },
       'denmark': function() { denmark(); },
@@ -27,7 +27,7 @@ if (annyang) {
       '(the) bahamas': function() { bahamas(); },
       'trinidad (and tobago)': function() { trinidad(); },
       'peru': function() { peru(); },
-      'uruguay': function() { uraguay(); },
+      'uruguay': function() { uruguay(); },
       'argentina': function() { argentina(); },
       'chile': function() { chile(); },
       'germany': function() { germany(); },
@@ -191,7 +191,64 @@ if (annyang) {
       'tonga': function() { tonga(); },
       'samoa': function() { samoa(); },
       'tuvalu': function() { tuvalu(); },
-  
+
+      /*############US STATES######################*/
+
+      'alabama': function() { alabama(); },
+      'alaska': function() { alaska(); },
+      'arizona': function() { arizona(); },
+      'arkansas': function() { arkansas(); },
+      'california': function() { california(); },
+      'colorado': function() { colorado(); },
+      'connecticut': function() { connecticut(); },
+      'delaware': function() { delaware(); },
+      'florida': function() { florida(); },
+      'georgia state': function() { georgiaSTATE(); },
+      'hawaii': function() { hawaii(); },
+      'idaho': function() { idaho(); },
+      'illinois': function() { illinois(); },
+      'indiana': function() { indiana(); },
+      'iowa': function() { iowa(); },
+      'kansas': function() { kansas(); },
+      'kentucky': function() { kentucky(); },
+      'louisiana': function() { louisiana(); },
+      'maine': function() { maine(); },
+      'maryland': function() { maryland(); },
+      'massachusetts': function() { massachusetts(); },
+      'michigan': function() { michigan(); },
+      'minnesota': function() { minnesota(); },
+      'mississippi': function() { mississippi(); },
+      'missouri': function() { missouri(); },
+      'montana': function() { montana(); },
+      'nebraska': function() { nebraska(); },
+      'nevada': function() { nevada(); },
+      'new hampshire': function() { newhampshire(); },
+      'new jersey': function() { newjersey(); },
+      'new mexico': function() { newmexico(); },
+      'new york': function() { newyork(); },
+      'north carolina': function() { northcarolina(); },
+      'north dakota': function() { northdakota(); },
+      'ohio': function() { ohio(); },
+      'oklahoma': function() { oklahoma(); },
+      'oregon': function() { oregon(); },
+      'pennsylvania': function() { pennsylvania(); },
+      'rhode island': function() { rhodeisland(); },
+      'south carolina': function() { southcarolina(); },
+      'south dakota': function() { southdakota(); },
+      'tennessee': function() { tennessee(); },
+      'texas': function() { texas(); },
+      'utah': function() { utah(); },
+      'vermont': function() { vermont(); },
+      'virginia': function() { virginia(); },
+      'washington': function() { washington(); },
+      'west virginia': function() { westvirginia(); },
+      'wisconsin': function() { wisconsin(); },
+      'wyoming': function() { wyoming(); },
+
+
+
+      /*############BRITISH TERRIRORY######################*/
+
   };
 
     annyang.addCommands(commands);

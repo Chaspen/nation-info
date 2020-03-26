@@ -1,0 +1,12 @@
+{
+    "intro": "Kérjük, engedélyezze a mikrofont",
+    "name": "Név",
+    "capital": "Főváros",
+    "population": "Népesség",
+    "area": "Terület",
+    "timezone": "Időzóna",
+    "language": "Nyelv",
+    "borders": "Határok",
+    "currency": "Valuta",
+    "region": "Vidék"
+}

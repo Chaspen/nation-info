@@ -1,0 +1,12 @@
+{
+    "intro": "Vă rugăm să activați microfonul.",
+    "name": "Nume",
+    "capital": "Capital",
+    "population": "Populație",
+    "area": "Zonă",
+    "timezone": "Fus orar",
+    "language": "Limba",
+    "borders": "Frontiere",
+    "currency": "Valută",
+    "region": "Regiune"
+}

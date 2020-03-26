@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest()
 
-request.open('GET', 'http://restcountries.eu/rest/v2/name/sweden', true)
+request.open('GET', 'https://restcountries.eu/rest/v2/name/sweden', true)
 request.onload = function() {
   // Begin accessing JSON data here
   var data = JSON.parse(this.response)

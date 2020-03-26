@@ -1,0 +1,12 @@
+{
+    "intro": "Please enable your microphone.",
+    "name": "Name",
+    "capital": "Capital",
+    "population": "Population",
+    "area": "Area",
+    "timezone": "Timezone",
+    "language": "Language",
+    "borders": "Borders",
+    "currency": "Currency",
+    "region": "Region"
+}

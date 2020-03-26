@@ -1,0 +1,12 @@
+{
+    "intro": "Lülitage mikrofon sisse",
+    "name": "Nimi",
+    "capital": "Pealinn",
+    "population": "Rahvastik",
+    "area": "Pindala",
+    "timezone": "Ajavöönd",
+    "language": "Keel",
+    "borders": "Piirid",
+    "currency": "Valuuta",
+    "region": "Piirkond"
+}

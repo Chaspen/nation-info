@@ -1,0 +1,12 @@
+{
+    "intro": "Si prega di abilitare il microfono.",
+    "name": "Nome",
+    "capital": "Capital",
+    "population": "Popolazione",
+    "area": "La zona",
+    "timezone": "Fuso orario",
+    "language": "Linguaggio",
+    "borders": "Frontiere",
+    "currency": "Moneta",
+    "region": "Regione"
+}

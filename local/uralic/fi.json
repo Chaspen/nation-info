@@ -1,0 +1,12 @@
+{
+    "intro": "Ota mikrofoni käyttöön",
+    "name": "Nimi",
+    "capital": "Iso alkukirjain",
+    "population": "Väestö",
+    "area": "Pinta-ala",
+    "timezone": "Aikavyöhyke",
+    "language": "Kieli",
+    "borders": "Rajoja",
+    "currency": "Valuutta",
+    "region": "Alue"
+}
